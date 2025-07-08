@@ -6,6 +6,7 @@ const Button = React.forwardRef(({
   variant = "primary", 
   size = "md",
   children,
+  asChild,
   ...props 
 }, ref) => {
   const baseStyles = "inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed";
